@@ -8,11 +8,11 @@
     android:orientation="vertical" >
 
     <com.gc.materialdesign.views.LayoutRipple
-        android:id="@+id/rip_personal"
+        android:id="@+id/rip_setting"
         android:layout_width="fill_parent"
         android:layout_height="64dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="18dp"
+        android:layout_below="@+id/rip_exchange"
         android:background="#FFF"
         android:clickable="true" >
 
@@ -21,8 +21,67 @@
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="32dp"
-            android:src="@drawable/icn_button" 
-            android:contentDescription="@string/app_name"/>
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/icn_switch" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="104dp"
+            android:text="市场浏览" />
+    </com.gc.materialdesign.views.LayoutRipple>
+
+     <com.gc.materialdesign.views.LayoutRipple
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="148dp"
+        android:layout_alignParentLeft="true"
+        android:background="#01579b"
+        android:orientation="vertical" >
+    </com.gc.materialdesign.views.LayoutRipple>
+
+    <com.gc.materialdesign.views.LayoutRipple
+        android:id="@+id/rip_exchange"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/LinearLayout1"
+        android:background="#FFF"
+        android:clickable="true" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/icn_progress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="104dp"
+            android:text="开始交易" />
+    </com.gc.materialdesign.views.LayoutRipple>
+
+    <com.gc.materialdesign.views.LayoutRipple
+        android:id="@+id/rip_personal"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rip_setting"
+        android:background="#FFF"
+        android:clickable="true" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/icn_button" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -46,8 +105,8 @@
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="32dp"
-            android:src="@drawable/icn_widget"
-            android:contentDescription="@string/app_name" />
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/icn_widget" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,57 +114,6 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="104dp"
             android:text="账户信息" />
-    </com.gc.materialdesign.views.LayoutRipple>
-
-    <com.gc.materialdesign.views.LayoutRipple
-        android:id="@+id/rip_exchange"
-        android:layout_width="fill_parent"
-        android:layout_height="64dp"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/rip_account"
-        android:background="#FFF"
-        android:clickable="true" >
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="32dp"
-            android:src="@drawable/icn_progress" 
-            android:contentDescription="@string/app_name"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="104dp"
-            android:text="开始交易" />
-    </com.gc.materialdesign.views.LayoutRipple>
-
-    <com.gc.materialdesign.views.LayoutRipple
-        android:id="@+id/rip_setting"
-        android:layout_width="fill_parent"
-        android:layout_height="64dp"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/rip_exchange"
-        android:background="#FFF"
-        android:clickable="true" >
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="32dp"
-            android:src="@drawable/icn_switch" 
-            android:contentDescription="@string/app_name"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="104dp"
-            android:text="市场浏览" 
-            />
     </com.gc.materialdesign.views.LayoutRipple>
 
 </RelativeLayout>

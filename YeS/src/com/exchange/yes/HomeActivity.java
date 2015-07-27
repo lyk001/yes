@@ -22,7 +22,7 @@ public class HomeActivity extends Activity {
 				
 				@Override
 				public void onClick(View arg0) {
-					Intent intent = new Intent(HomeActivity.this,ButtonsActivity.class);
+					Intent intent = new Intent(HomeActivity.this,ExchangeActivity.class);
 					startActivity(intent);
 				}
 			});
