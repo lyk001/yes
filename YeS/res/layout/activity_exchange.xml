@@ -29,23 +29,7 @@
         </RelativeLayout>
          </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="68dp"
-        android:layout_height="48dp"
-        android:layout_marginright="204dp" >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:text="设置币种" />
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dp"
-            android:layout_alignParentBottom="true"
-            android:background="#1E88E5" />
-    </RelativeLayout>
 
     
     
